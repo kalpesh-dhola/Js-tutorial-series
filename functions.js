@@ -24,7 +24,7 @@ function add(a, b) {
   return a + b;
 }
 
-// console.log(add(5, 10)); // Function with Parameters
+// console.log(add(5, 10)); // Function with Parameters 
 
 function name (name = "who"){
     console.log("hello" + myname);
