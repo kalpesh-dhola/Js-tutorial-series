@@ -41,33 +41,33 @@ console.log(resultt);
 function demo2(number1 , number2){
   return number1 + number2;
 }
-const res = demo2(15 , 15);
-console.log(res);
 
-function demo3(number1 , number2){
-  return number1 + number2;
+function usermassege(username){
+  if(!username){
+    console.log("Please enter a username");
+    return
+  }
+  return `${username} just logged in`
 }
-const ress = demo2(30 ,45);
-console.log(ress);
 
-function demo4(number1 , number2){
-  return number1 + number2;
-}
-const resss = demo4(30 , 45);
-console.log(resss)
+// console.log(usermassege());
 
-function demo5(number1 , number2){
-  return number1 + number2;
+function userdetails(num , num1){
+  return num
 }
-const ressss = demo5(84 , 45);
-console.log(ressss);
 
-function demo6(number1 , number2){
-  return number1 + number2;
+console.log(userdetails(11 , 545 , 98 , 66));
+
+const mynewarray = [200 , 300 , 400]
+
+function returnarray(ary1 , ...ary2){
+  return returnarray()
 }
-const res6s = demo6(64 , 57);
-console.log(res6s);
- 
+
+console.log(returnarray(20 , 56 , 24 , 36));
+
+
+
 
 
 
